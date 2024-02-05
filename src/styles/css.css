@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+:root {
+  --bs-first-color: rgba(255, 166, 0, 1);
+  --bs-first-color-opa: rgba(255, 166, 0, 0.3);
+  --bs-second-color: green;
+  --bs-second-color-opa: rgba(0, 128, 0, 0.74);
+}
+.color-second {
+  color: var(--bs-second-color);
+}
+.color-first {
+  color: var(--bs-first-color);
+}
+.bg-first-color {
+  background-color: var(--bs-first-color);
+}
+.header {
+  height: 100vh;
+}
+.img-header {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  padding: 15px;
+  background-color: var(--bs-second-color-opa);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.title-header {
+  font-size: 36px;
+  font-weight: bolder;
+  position: absolute;
+  color: aliceblue;
+  top: 50%;
+  left: 50%;
+}
+.footer {
+  text-align: center;
+  padding: 1em;
+  background-color: var(--bs-second-color);
+}
+.link-footer {
+  padding: 1em;
+  text-decoration: none;
+}
+.site-title {
+  font-size: 2.5em;
+  font-family: "Protest Revolution", sans-serif;
+  color: var(--bs-first-color);
+}
+.lien {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Protest Strike", sans-serif;
+  letter-spacing: 3px;
+  margin: 0px 0.5em;
+  transition: font-size 1s;
+  color: white;
+}
+.lien:hover,
+.lien:focus {
+  border-bottom: 5px solid var(--bs-first-color);
+  font-size: 1.3em;
+  padding: 0 1em;
+}
+.breadcrumb {
+  width: 100%;
+  height: 25vh;
+  border: 1px solid gray;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/hero.jpg");
+}
+.breadcrumb-link {
+  font-size: 2em;
+  color: var(--bs-first-color);
+}
+.breadcrumb-item.active {
+  font-size: 2em;
+}
+.color {
+  padding: 0.1em;
+}
+.checked-rouge:checked {
+  background-color: red;
+  border-color: red;
+}
+.checked-vert:checked {
+  background-color: green;
+  border-color: green;
+}
+.pointer {
+  cursor: pointer;
+}
+.image-card {
+  height: 30vh;
+}
+.image-card:focus {
+  background-color: aqua;
+}
+.qte-cart {
+  position: relative;
+  left: -10px;
+  bottom: 10px;
+  border-radius: 4px;
+  padding: 3px;
+}
