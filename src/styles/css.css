@@ -32,13 +32,22 @@
   width: 100%;
   z-index: 999;
 }
-.title-header {
-  font-size: 36px;
-  font-weight: bolder;
+.text-header {
   position: absolute;
-  color: aliceblue;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+}
+.title-header {
+  display: block;
+  font-size: min(4vw, 10vh);
+  margin-top: -0.6em;
+  color: var(--bs-first-color);
+  text-shadow: 2px 2px 4px #000000, -2px -2px 4px #ffffff;
+}
+.msg-header {
+  width: 50%;
+  padding: 1em;
+  color: white;
+  text-align: center;
 }
 .footer {
   text-align: center;
@@ -64,7 +73,8 @@
   color: white;
 }
 .lien:hover,
-.lien:focus {
+.lien:focus,
+.lien.active {
   border-bottom: 5px solid var(--bs-first-color);
   font-size: 1.3em;
   padding: 0 1em;
@@ -110,4 +120,16 @@
   bottom: 10px;
   border-radius: 4px;
   padding: 3px;
+}
+.bg-gris {
+  background-color: rgba(128, 128, 128, 0.089);
+}
+.p-6 {
+  padding: 3em;
+}
+
+.img-cart {
+  width: 50%;
+  height: 15vh;
+  border-radius: 25%;
 }

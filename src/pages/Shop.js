@@ -13,8 +13,8 @@ export default function Shop({ qte, setQte, pagnes, setPagnes }) {
   const [rangeValue, setRangeValue] = useState(1000);
   const [couleurValue, setCouleurValue] = useState([]);
   const [categorieValue, setCategorieValue] = useState("");
-  const couleursFiltre = ["red", "green", "yellow"];
   let filter = [];
+
   useEffect(() => {
     const pagnesFiltres = PAGNES.filter((p) =>
       p.categorie.includes(categorieValue)
@@ -55,15 +55,17 @@ export default function Shop({ qte, setQte, pagnes, setPagnes }) {
                 placeholder="Que cherchez vous ?"
                 aria-label="Que cherchez vous ?"
                 aria-describedby="basic-addon2"
-                value={categorieValue}
+                value=""
                 onChange={(e) => setCategorieValue(e.target.value)}
               />
               <span class="input-group-text bg-first-color" id="basic-addon2">
                 <img src={SearchIcon}></img>
               </span>
             </div>
+
             <div>
               <div className="h1 my-2">Categorie</div>
+
               <ListeCategories
                 categorieValue={categorieValue}
                 setCategorieValue={setCategorieValue}
@@ -108,7 +110,6 @@ export default function Shop({ qte, setQte, pagnes, setPagnes }) {
             ))}
           </div>
         </div>
-        <h1>Shop</h1>
       </div>
     </>
   );
