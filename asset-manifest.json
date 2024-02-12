@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c664fd2.css",
+    "main.js": "/static/js/main.ecfca344.js",
+    "static/media/card1.jpeg": "/static/media/card1.32b5d9c50dbc7c2c10cf.jpeg",
+    "static/media/header.jpg": "/static/media/header.024a89123e38c82c9082.jpg",
+    "static/media/hero.jpg": "/static/media/hero.8842570deaff8af5c3e9.jpg",
+    "static/media/pagne1.jpeg": "/static/media/pagne1.dddba59a1d95ddd3f30a.jpeg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.e71d5f7a311e0f0012c5acda404f2cd0.svg",
+    "index.html": "/index.html",
+    "static/media/cart.svg": "/static/media/cart.80080b81012e0d48ea8572bff4cd4c8c.svg",
+    "static/media/facebook.svg": "/static/media/facebook.a266921a8bdbb287490166b0990875dc.svg",
+    "static/media/search.svg": "/static/media/search.d4eb7c2fa04d7c91c1170f7719bfb23a.svg",
+    "static/media/tiktok.svg": "/static/media/tiktok.b6ec48472e968351b0a0f9c1b186afc1.svg",
+    "main.0c664fd2.css.map": "/static/css/main.0c664fd2.css.map",
+    "main.ecfca344.js.map": "/static/js/main.ecfca344.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c664fd2.css",
+    "static/js/main.ecfca344.js"
+  ]
+}
