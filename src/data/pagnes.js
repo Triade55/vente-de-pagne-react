@@ -39,6 +39,16 @@ export const PAGNES = [
     couleurs: ["yellow", "purple", "orange"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
   },
+  {
+    id: 5,
+    nom: "Casque avec fil",
+    prix: 19.99,
+    qte: 0,
+    stock: 30,
+    categorie: "Sport et Fitness",
+    couleurs: ["yellow", "purple", "orange"],
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+  },
 ];
 
 export default PAGNES;

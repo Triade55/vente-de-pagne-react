@@ -19,11 +19,11 @@ export default function Header() {
             pagnes en personne, IvoirCloth vous invite à embrasser la beauté de
             l'artisanat traditionnel.
             <div className="mt-4">
-              <Link to="#next" className="btn btn-warning mx-2 p-3">
-                En savoir plus{" "}
-              </Link>
+              <a href="#about" className="btn btn-warning mx-2 p-3">
+                En savoir plus
+              </a>
               <Link to="/shop" className="btn btn-success mx-2 p-3">
-                Ma boutique{" "}
+                Ma boutique
               </Link>
             </div>
           </div>

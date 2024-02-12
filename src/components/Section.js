@@ -1,6 +1,12 @@
 import React from "react";
 
-export default function Section({ title, img, text, position = "right" }) {
+export default function Section({
+  title,
+  img,
+  text,
+  position = "right",
+  bg = "lightgray",
+}) {
   let left = "",
     right = "";
   if (position === "left") {
@@ -12,8 +18,11 @@ export default function Section({ title, img, text, position = "right" }) {
   }
 
   return (
-    <section className="text-gray-400 body-font p-4">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <section className="text-gray-400 body-font p-4" id="about">
+      <div
+        className="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center rounded-3"
+        style={{ background: bg }}
+      >
         <div className="col-12 text-center fs-1 text-uppercase">{title} </div>
         <div className="row pt-4">
           <div className="col-6">{left}</div>
